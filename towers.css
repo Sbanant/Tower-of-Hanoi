@@ -1,0 +1,83 @@
+body {
+  padding-top: 50px;
+  padding-left: 100px;
+  background-color: rgb(45, 42, 42);
+}
+
+.drophere {
+  height: 500px;
+  width: 200px; 
+  border: 10px dashed #ccc;
+  margin: 40px;
+  padding: 50px;
+  float: left;
+  position: relative;
+  display:flex;
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+#steps {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.box {
+  width: 100px;
+  position: absolute;
+  bottom: 10px;
+}
+
+#message {
+  height: 10px;
+  padding-left: 50px;
+  margin-bottom: 60px;
+  size: 20px;
+  font-size: 30px;
+  color: rgb(85, 205, 111);
+  display: block;
+  text-align: center; /* Center-align the content */
+  text-align: middle;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+
+.dragme { 
+  height: 60px;
+  margin: 1px auto; /* Center align horizontally */
+  border: 1px solid #ccc;
+  border-radius: 15px 15px;
+
+}
+
+.dragme-1 {
+  width: 100px;
+  background-color: red;
+  margin-left: 9.5%;
+
+}
+
+.dragme-2 {
+  width: 120px;
+  background-color: green;
+
+}
+
+.dragme-3 {
+  width: 140px;
+  background-color: yellow;
+ 
+  margin-left: -8.5%;
+}
+
+.dragme-4 {
+  width: 160px;
+  background-color: blue;
+  margin-left: -13.5%;
+}
+
+div#steps {
+  float: left;
+}
