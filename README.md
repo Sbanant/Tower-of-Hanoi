@@ -46,7 +46,3 @@ To run the Towers of Hanoi game, simply open the `index.html` file in a web brow
 - Implement a scoring system based on the minimum number of moves required.
 - Provide a timer to track how long it takes to complete each level.
 - Create a leaderboard to compare scores and times with other players.
-
-## License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute this game as you wish.
